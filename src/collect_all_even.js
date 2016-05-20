@@ -2,8 +2,8 @@
 
 function collect_all_even(collection) {
     var newArray = [];
-    for(var a=0;a<collection.length;a++){
-        if(collection[a]%2 === 0){
+    for (var a = 0; a < collection.length; a++) {
+        if (collection[a] % 2 === 0) {
             newArray.push(collection[a]);
         }
     }
